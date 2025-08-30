@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class InventarioDto {
+    private Long id;
     private Long idProducto;
     private Integer cantidadProductos;
     private Long idBodega;
